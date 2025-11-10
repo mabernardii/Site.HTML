@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Atividade Diagnóstica - CSS</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="slide ativo" id="slide1">
+    <h1>Atividade Diagnóstica</h1>
+    <h2 class="rosa">MISSÃO CSS</h2>
+    <p><strong>Aluna:</strong> Manuela Bernardi de Lima</p>
+  </div>
+
+  <div class="slide" id="slide2">
+    <h2 class="rosa">O que é CSS?</h2>
+    <p>O CSS é uma linguagem de estilo utilizada para definir a apresentação visual de documentos escritos em linguagens de marcação, como HTML. 
+        Ele é responsável por toda a parte de design e estilização de sites e aplicativos web, permitindo controlar aspectos visuais como: 
+        <ul>
+        <li> Cores e fontes: Definição de cores de texto, fundo e tipos de letra.</li>
+        <li>Layout e posicionamento: Controle de margens, tamanhos, alinhamentos e posicionamento dos elementos na página.</li>
+        <li>Responsividade: Adaptação do layout para diferentes tamanhos de tela e tipos de dispositivos (desktops, tablets, celulares).</li>
+        <li>Estilos visuais: Adição de efeitos visuais, como sombras e transições. </li> </p>
+        </ul>
+    <p><strong>Sigla:</strong> Cascading Style Sheets (Folha de Estilos em Cascata).</p>
+  </div>
+
+  <div class="slide" id="slide3">
+    <h2 class="rosa">Função Principal</h2>
+    <p>A principal função do CSS é estilizar e controlar a aparência visual de páginas web. Ele define como os elementos do HTML 
+        (que fornecem a estrutura e o conteúdo) serão exibidos na tela, no papel ou em outras mídias. As propriedades controladas pelo 
+        CSS incluem cores, fontes, tamanhos, margens, posicionamento e layout geral, tornando o design do site atraente e responsivo.</p>
+  </div>
+
+  <div class="slide" id="slide4">
+    <h2 class="rosa">Por que separar o CSS do HTML?</h2>
+    <ul>
+      <li>Organização e legibilidade: A separação mantém o código limpo e fácil de ler, já que cada arquivo tem um propósito definido.</li>
+      <li>Manutenção simplificada: Se precisar alterar a aparência (como cores ou fontes), basta editar o arquivo CSS, sem a necessidade de encontrar a lógica dentro do código HTML.
+</li>
+      <li>Trabalho em equipe: Desenvolvedores podem trabalhar em paralelo, um no conteúdo e outro na estilização, sem interferir um no trabalho do outro.</li>
+      <li>Performance: Arquivos CSS externos podem ser armazenados em cache pelo navegador, acelerando o carregamento de páginas futuras no site.</li>
+      <li>Reutilização de estilos: Um único arquivo CSS pode ser aplicado a várias páginas HTML, garantindo consistência visual e evitando a repetição de código.</li>
+    </ul>
+  </div>
+
+  <div class="slide" id="slide5">
+    <h2 class="rosa">O que é o W3C?</h2>
+    <p>O <strong>World Wide Web Consortium (W3C)</strong> é uma organização criada por Tim Berners-Lee em 1994.  
+    Ela define padrões e boas práticas para garantir uma web acessível e funcional para todos. Em resumo, é uma comunidade composta por centenas de organizações membros 
+    (incluindo empresas de tecnologia, órgãos governamentais e instituições de pesquisa), uma equipe em tempo integral e o público, que trabalham em conjunto para desenvolver padrões abertos. </p>
+  </div>
+
+  <div class="slide" id="slide6">
+    <h2 class="rosa">Por que validar o código?</h2>
+    <p>Validar o código garante que o site funcione corretamente, evitando erros, bugs e falhas.  
+    É essencial para oferecer uma experiência segura e de qualidade ao usuário.
+    <ul>
+    <li>Compatibilidade entre navegadores: garante que o site funcione corretamente em diferentes navegadores.</li>
+    <li>Experiência do usuário: proporciona uma navegação consistente e sem falhas</li>
+    <li>Depuração e manutenção: facilita a identificação e correção de erros, tornando o código mais fácil de manter.</li>
+    <li>Acessibilidade: melhora a interpretação do site por tecnologias assistivas, beneficiando pessoas com deficiência.</li>
+    <li>SEO (Otimização para Mecanismos de Busca): contribui para melhor indexação e ranqueamento nos buscadores.</li>
+    <li>Conformidade com padrões: assegura um desenvolvimento web sustentável, padronizado e de qualidade.</li>
+    </ul>
+</p>
+  </div>
+
+  <div class="slide" id="slide7">
+    <h2 class="rosa">Formas de conectar CSS ao HTML</h2>
+    <ul>
+      <li><strong>Inline:</strong> dentro da tag HTML.</li>
+      <li><strong>Interna:</strong> dentro da tag &lt;style&gt; no HTML.</li>
+      <li><strong>Externa:</strong> em um arquivo .css separado.</li>
+    </ul>
+  </div>
+
+  <div class="slide" id="slide8">
+    <h2 class="rosa">Anatomia do CSS</h2>
+    <p><strong>Seletor</strong> → <strong>Propriedade</strong> → <strong>Valor</strong></p>
+     <ul>
+        <li>Exemplo: p {volor:red; }</li>
+        <li>Seletor: É a parte que identifica a quais elementos HTML as regras de estilo serão aplicadas. 
+        No exemplo p { color: red; }, o seletor p indica que o estilo deve ser aplicado a todos os elementos de título principal (p) na página web.</li>
+        <li> Propriedade: A propriedade é a característica visual ou de layout que você deseja alterar. Ela especifica o tipo de estilo a ser aplicado. No exemplo, color é a propriedade que define a cor do texto.   </li>
+        <li> Valores: O valor é o ajuste específico ou a configuração que você atribui a uma propriedade. Ele determina como a propriedade será exibida. No exemplo, red é o valor atribuído à propriedade color, fazendo com que o texto dos títulos <p> fique vermelho. </li>
+    </ul>
+    </p>
+   
+  </div>
+
+  <div class="slide" id="slide9">
+    <h2 class="rosa">Seletores principais</h2>
+    <ul>
+        <li>Seletor de tag: Ele seleciona todas as instâncias de uma tag  HTML específica.
+        Nenhum símbolo especial é necessário, apenas o nome da tag.</li>
+        <li>Seletor de ID: Ele seleciona um único elemento HTML que possui um atributo id específico, pois um ID deve ser único em toda a página.
+        Usa-se o símbolo de cerquilha (#) seguido pelo nome do ID.</li>
+        <li> Seletor de Classe: Ele seleciona todos os elementos HTML que possuem um atributo class específico. Diferente do ID, uma classe pode ser usada em múltiplos elementos.
+        Usa-se o símbolo de ponto final (.) seguido pelo nome da classe.</li>
+        <li>Seletor Universal (*): O seletor asterisco (*) é o seletor universal e aplica as regras CSS a todos os elementos HTML na página.
+        É frequentemente usado no início de uma folha de estilos para redefinir (ou "resetar") as margens e preenchimentos padrão do navegador para todos os elementos, garantindo consistência visual em diferentes navegadores.</li>
+    </ul>
+</div>
+
+  <div class="slide" id="slide10">
+    <h2 class="rosa">Conclusão</h2>
+    <p>O CSS é essencial no desenvolvimento web moderno — ele dá “vida” e beleza às páginas,  
+    garantindo acessibilidade e uma boa experiência de navegação.</p>
+  </div>
+
+  <div class="slide" id="slide11">
+    <h2 class="rosa">Referência</h2>
+    <a href="https://reviewnprep.com/blog/the-benefits-of-separating-html-css-and-javascript-unleashing-the-power-of-web-development/" target="_blank">
+      ReviewnPrep Blog
+    </a>
+    <p class="thanks">OBRIGADO PELA ATENÇÃO!</p>
+  </div>
+
+  <div class="controles">
+    <button id="prev">◀</button>
+    <button id="next">▶</button>
+  </div>
+
+  <script>
+    const slides = document.querySelectorAll('.slide');
+    let atual = 0;
+
+    document.getElementById('next').onclick = () => {
+      slides[atual].classList.remove('ativo');
+      atual = (atual + 1) % slides.length;
+      slides[atual].classList.add('ativo');
+    };
+
+    document.getElementById('prev').onclick = () => {
+      slides[atual].classList.remove('ativo');
+      atual = (atual - 1 + slides.length) % slides.length;
+      slides[atual].classList.add('ativo');
+    };
+  </script>
+
+</body>
+</html>
