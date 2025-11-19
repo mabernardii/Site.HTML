@@ -1,0 +1,89 @@
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+background: url(imagem.jpg) no-repeat center center fixed;
+background-size: cover;
+}
+
+
+header {
+background: rgba(255, 143, 179, 0.85);
+padding: 20px;
+text-align: center;
+color: white;
+font-size: 28px;
+font-weight: bold;
+}
+
+
+footer {
+background: rgba(255, 143, 179, 0.85);
+padding: 15px;
+text-align: center;
+color: white;
+font-size: 14px;
+position: fixed;
+bottom: 0;
+width: 100%;
+}
+
+
+.container {
+width: 100%;
+display: flex;
+justify-content: center;
+margin-top: 80px;
+}
+
+
+.box {
+background: rgba(255, 255, 255, 0.85);
+padding: 30px;
+border-radius: 10px;
+width: 320px;
+box-shadow: 0 0 10px rgba(0,0,0,0.2);
+text-align: center;
+}
+
+
+input {
+width: 100%;
+padding: 10px;
+margin: 10px 0;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+
+
+button {
+width: 100%;
+padding: 10px;
+background: #ff5c8a;
+color: white;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+font-size: 16px;
+}
+
+
+button:hover {
+background: #ff3e72;
+}
+
+
+.erro {
+color: red;
+font-size: 14px;
+margin-top: -5px;
+margin-bottom: 10px;
+display: none;
+}
+
+
+.mensagem {
+margin-top: 10px;
+font-weight: bold;
+color: #d60073;
+display: none;
+}
